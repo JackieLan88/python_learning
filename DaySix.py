@@ -14,11 +14,11 @@ from DayFive import animal_products
 
 empty_tuple = ()   #empty tuple
 empty_tuple = tuple() # creating a tuple using the tuple constructor
-
+type(empty_tuple)
 # tuple with initial values
 tpl = ('item1','item2','item3')
 fruits = ('banana','orange','mango','lemon')
-
+type(fruits)
 
 # tuple len
 print(len(tpl))
@@ -55,7 +55,7 @@ print(namjin)
 
 
 
-# Changing tuples to list ??? why??? tuples are IMMUTABLE! which means you can't modify them
+# Changing tuples to list ?? why? tuples are IMMUTABLE! which means you can't modify them
 list_bts = list(bts)
 list_bts[0] = 'Namjoon'
 print(bts)
@@ -122,7 +122,7 @@ print(last_three)
 
 del food_stuff_tp
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
-print('Estonia' in nordic_countries) # Check if 'Estonia' is a nordic country
+print("Estonia in nordic_countries"+ 'Estonia' in nordic_countries) # Check if 'Estonia' is a nordic country
 print('Iceland' in nordic_countries) # Check if 'Iceland' is a nordic country
 
 
