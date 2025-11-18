@@ -118,8 +118,8 @@ print(formatted_string)
 '''Using f-strings (formatted string literals): This is the most modern and recommended method introduced in Python 3.6.'''
 
 
-bts = "saja boys"
-song = "Your Idol"
+bts = "sonyeondan"
+song = "Idol"
 
 print(f'{a} + {b} = {a+b}')
 print(f'{a} - {b} = {a-b}')
